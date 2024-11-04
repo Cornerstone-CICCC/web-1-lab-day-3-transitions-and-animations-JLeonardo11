@@ -1,4 +1,4 @@
-* {
+index.html {
   box-sizing: border-box;
 }
 
@@ -66,7 +66,8 @@ body {
         border: none;
         cursor: pointer;
         font-size: 20px;
-        background: linear-gradient(to right, rgb(1, 146, 1) 20%, #0080006b 20% 22%, green 22%);        background-size: 500% 100%;
+        background: linear-gradient(to right, rgb(1, 146, 1) 20%, #0080006b 20% 22%, green 22%);        
+        background-size: 500% 100%;
         background-position-x: 40%;
         background-position-y: 40%;
         margin: 1rem auto;
@@ -103,7 +104,7 @@ body {
 
         &::after {
           content: " Hello!!!";
-          color: grey; // Initial color
+          color: grey;
           font-size: 2rem;
 
         }
@@ -111,7 +112,7 @@ body {
         
     
         &:hover::after {
-          display: inline; // Show on hover
+          display: inline; 
           transition: 1s ease;
           color: black;
         }
@@ -194,36 +195,40 @@ body {
       }
       figcaption{
         position: absolute;
-    bottom: 0; // Start at the top of the container
+    bottom: 0; 
     left: 0;
     width: 100%;
     text-align: center;
-    background-color: pink; // Semi-transparent background
+    background-color: pink; 
     color: pink;
     padding: 1rem;
-    transform: translateY(0%); // Initially hidden above the image
+    transform: translateY(0%); 
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    opacity: 10%; // Initially hidden
+    opacity: 10%; 
     z-index: 0;
     }
 
     
-      
-    }
-   @keyframes drop {
 
-    
    }
      
 
-       
-      
-           
-        
+
+}
+
+bonus.html{
+  body{
+    justify-content: center;
+     align-items: center;
 
 
-      
-      
 
+  .green-box{
+   width: 200px;
+    height:200px;
+   background: red;
+   
+  }  
+}
 
 }

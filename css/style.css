@@ -1,4 +1,4 @@
-* {
+index.html {
   box-sizing: border-box;
 }
 
@@ -159,6 +159,15 @@ body {
   opacity: 10%;
   z-index: 0;
 }
-@keyframes drop {}
+
+bonus.html body {
+  justify-content: center;
+  align-items: center;
+}
+bonus.html body .green-box {
+  width: 200px;
+  height: 200px;
+  background: red;
+}
 
 /*# sourceMappingURL=style.css.map */
